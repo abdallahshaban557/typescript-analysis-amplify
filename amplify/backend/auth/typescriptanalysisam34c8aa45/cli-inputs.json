@@ -1,0 +1,47 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "typescriptanalysisam34c8aa45_identitypool_34c8aa45",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "typesc34c8aa45",
+    "userPoolName": "typescriptanalysisam34c8aa45_userpool_34c8aa45",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email",
+      "name"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "typesc34c8aa45_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "34c8aa45",
+    "resourceName": "typescriptanalysisam34c8aa45",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
+    "triggers": {},
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

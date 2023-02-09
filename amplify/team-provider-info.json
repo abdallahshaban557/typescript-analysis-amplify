@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-typescriptanalysisam-dev-200034-authRole",
+      "UnauthRoleArn": "arn:aws:iam::613607431007:role/amplify-typescriptanalysisam-dev-200034-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::613607431007:role/amplify-typescriptanalysisam-dev-200034-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-typescriptanalysisam-dev-200034-deployment",
+      "UnauthRoleName": "amplify-typescriptanalysisam-dev-200034-unauthRole",
+      "StackName": "amplify-typescriptanalysisam-dev-200034",
+      "StackId": "arn:aws:cloudformation:us-west-2:613607431007:stack/amplify-typescriptanalysisam-dev-200034/4f5e3750-a82e-11ed-a030-0a17ffb4c823",
+      "AmplifyAppId": "d3tpl2diyiadwv"
+    },
+    "categories": {
+      "auth": {
+        "typescriptanalysisam34c8aa45": {}
+      }
+    }
+  }
+}
