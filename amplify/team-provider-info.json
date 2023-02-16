@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "typescriptanalysisam34c8aa45": {}
+      },
+      "function": {
+        "S3Triggercb8e53ca": {
+          "deploymentBucketName": "amplify-typescriptanalysisam-dev-200034-deployment",
+          "s3Key": "amplify-builds/S3Triggercb8e53ca-683372377437305a3550-build.zip"
+        }
+      },
+      "storage": {
+        "s349b5afe9": {}
       }
     }
   }
