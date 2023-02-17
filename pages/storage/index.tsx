@@ -7,6 +7,24 @@ import { Amplify, Storage } from 'aws-amplify';
 
 const inter = Inter({ subsets: ['latin'] })
 
+// let upload = Storage.put("test.txt", "File content", {
+//     // progressCallback(progress) {
+//     //   console.log(`Uploaded: ${progress.loaded}/${progress.total}`);
+//     // },
+//     progressCallback(progress) {
+//         console.log('upl')
+//     },
+//     //resumable: true,
+//     useAccelerateEndpoint: true,
+//     completeCallback(event) {
+//         event.key
+//     },
+//     resumable:true
+//   });
+
+
+//   upload.pause();
+  
 export default function Auth() {
   return (
     <>
@@ -22,6 +40,7 @@ export default function Auth() {
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.tsx</code>
           </p>
+          
           <div>
             <a
               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
