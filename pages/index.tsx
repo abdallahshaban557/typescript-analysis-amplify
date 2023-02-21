@@ -6,29 +6,19 @@ import styles from "@/styles/Home.module.css";
 import ContactCardComponent from "@/components/contact-card";
 import PricingComponent from "@/components/pricing";
 import { Button } from "@aws-amplify/ui-react";
+import { METHODS } from "http";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   async function openAI() {
-    const { Configuration, OpenAIApi } = require("openai");
-
-    const configuration = new Configuration({
-      apiKey: process.env.OPENAI_API_KEY,
+    console.log("before API call");
+    const res = await fetch("http://localhost:3000/api/hello", {
+      method: "POST",
     });
-    const openai = new OpenAIApi(configuration);
-
-    const response = await openai.createCompletion({
-      model: "code-davinci-002",
-      prompt:
-        "create a React component that has a name contact card with an email as a subheading.\n+\n+//create a React component that has a name contact card with an email as a subheading.\n+//create a React component that has a name contact card with an email as a subheading.\n+//create a React component that has a name contact card with an",
-      temperature: 0,
-      max_tokens: 60,
-      top_p: 1,
-      frequency_penalty: 0.5,
-      presence_penalty: 0,
-      stop: ["You:"],
-    });
+    const data = await res.json();
+    console.log("after API call");
+    console.log(data);
   }
 
   return (
